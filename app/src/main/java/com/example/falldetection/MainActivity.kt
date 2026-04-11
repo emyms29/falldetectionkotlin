@@ -99,7 +99,7 @@ fun MainScaffold(){
         Box(modifier = Modifier.padding(innerPadding)) {
             when (selectedTab) {
                 "home"     -> HomeScreen()
-                // "alerts"   -> AlertsScreen()
+                "alerts"   -> AlertsScreen()
                 // "history"  -> HistoryScreen()
                 // "devices"  -> DevicesScreen()
                 // "settings" -> SettingsScreen()
